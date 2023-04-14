@@ -1,0 +1,36 @@
+.movieStars {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.movieStars td, .movieStars th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.movieStars .headers {
+    font-weight: bold;
+    text-align: center;
+}
+
+.movieStars tr:nth-child(even){background-color: #f2f2f2;}
+
+.movieStars tr:hover {background-color: #ddd;}
+
+.movieStars th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.form-control {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+}
+.form-control:focus {
+    border: 3px solid #555;
+}
